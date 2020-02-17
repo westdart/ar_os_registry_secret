@@ -1,0 +1,6 @@
+---
+- name: Include registry-secret tasks for each registry secret
+  include_tasks: registry-secret.yml
+  with_items: "{{ ar_os_registry_secret_items }}"
+  loop_control:
+    loop_var: ar_os_registry_secret_item
