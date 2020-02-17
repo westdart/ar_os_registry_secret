@@ -3,7 +3,7 @@ ar_os_registry_secret_list: []
 ar_os_registry_secret_namespace: ''
 
 # Each list object can contain the following:
-#  name: null
+#  secret_name: null
 #  server: null
 #  username: null
 #  email: null
