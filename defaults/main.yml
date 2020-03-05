@@ -1,0 +1,15 @@
+---
+ar_os_registry_secret_assertions: [
+  "ar_os_registry_secret_namespace is defined",
+  "ar_os_registry_secret_namespace is not none",
+  "ar_os_registry_secret_namespace | length",
+  "_ar_os_registry_secret_docker_password is defined",
+  "_ar_os_registry_secret_docker_password is not none",
+  "_ar_os_registry_secret_docker_password | length",
+  "'server' in ar_os_registry_secret_item",
+  "ar_os_registry_secret_item.server is not none",
+  "ar_os_registry_secret_item.server | length",
+  "'username' in ar_os_registry_secret_item",
+  "ar_os_registry_secret_item.username is not none",
+  "ar_os_registry_secret_item.username | length",
+]

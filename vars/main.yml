@@ -1,6 +1,6 @@
 ---
 ar_os_registry_secret_list: []
-ar_os_registry_secret_namespace: ''
+ar_os_registry_secret_namespace: null
 
 # Each list object can contain the following:
 #  secret_name: null
